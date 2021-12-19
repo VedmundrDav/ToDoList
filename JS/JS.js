@@ -6,8 +6,10 @@ var item = document.getElementsByTagName("li");
 function createItem() {
     if (!inputText.value == "") {
         var delBtn = document.createElement("button");
-        delBtn.innerHTML = "X"
+        //delBtn.innerHTML = "X"
+        delBtn.innerHTML = '<img src = "images/delete.png" id = "del-icon"/>';
         delBtn.id = "del-btn";
+
         var li = document.createElement("li"); //creates a li element
         li.appendChild(delBtn);
         li.appendChild(document.createTextNode(inputText.value)); //sets text of input ot the li element
@@ -23,9 +25,10 @@ function createItem() {
     }else{
         alert("Enter something to do!");
     }
+}
 
-    //need to add a button that deletes the row too
-
+function editItem(item){
+    var newText = "";
 }
 
 
