@@ -1,0 +1,39 @@
+body{
+    background-color: khaki;
+    height: 100vh; /*may change*/
+
+
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header-div{
+    text-align: center;
+}
+#new-item-div{
+    display: flex;
+    flex-direction: row;    
+}
+#new-item-text-field{
+
+}
+#item-text{
+
+}
+#new-item-btn{
+
+}
+#item-btn{
+
+}
+#list-div{
+
+}
+#list{
+    font-family: Helvetica;
+}
+.text{
+    font-family: Helvetica;
+}
