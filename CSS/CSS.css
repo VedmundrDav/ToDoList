@@ -18,6 +18,10 @@ ul{
     display: flex;
     flex-direction: row;    
 }
+#li-item:hover{
+    background-color: lightgreen;
+    border-style: solid;
+}
 #del-btn{
     height: 25px;
     margin-right: 5px;
@@ -25,6 +29,9 @@ ul{
     background: none;
     margin: 0;
     padding: 0;
+}
+#del-btn:hover{
+    background-color: coral;
 }
 #del-icon{
     height: 15px;
